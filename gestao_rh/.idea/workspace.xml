@@ -3,7 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="d167fb78-4152-4e03-a632-93815e9de32d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestao_rh/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gestao_rh/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/departamentos/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/documentos/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/documentos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/documentos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/empresas/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/empresas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/empresas/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/funcionarios/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/funcionarios/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/funcionarios/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registro_hora_extra/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/registro_hora_extra/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/registro_hora_extra/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
@@ -138,34 +147,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578066607457" />
+    <state x="719" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578114768989">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578114768989" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1578069097354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578069097354" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1578072790470">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1578114878872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578072790470" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1578072790470">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578114878872" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1578114878872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578072790470" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1578072790470">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578114878872" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1578114878872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578072790470" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1578072790470">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578114878872" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1578114878872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578072790470" />
-    <state x="461" y="163" key="SettingsEditor" timestamp="1578069120495">
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578114878872" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1578076864092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578069120495" />
-    <state x="661" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578060762485">
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578076864092" />
+    <state x="661" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578112773963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578060762485" />
+    <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578112773963" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578074867189">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
