@@ -5,5 +5,4 @@ from .models import Empresa
 
 class EmpresaCreate(CreateView):
     model = Empresa
-
-
+    fields = ['nome']
